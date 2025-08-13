@@ -1,102 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>NexSure Cert and Quality Services - Inspection, Audit & Quality Consulting</title>
-  <meta name="description" content="NexSure Cert and Quality Services offers third-party inspection, auditing, expediting and quality consulting for Power, Hydro, Oil & Gas, Pulp & Paper and Heavy Engineering industries." />
+  <meta charset="UTF-8">
+  <title>NexSure Cert and Quality Services | Inspection, Audits & Quality Consulting</title>
+  <meta name="description" content="NexSure Cert and Quality Services is your trusted partner for third-party inspections, quality audits, expediting, and consulting for manufacturing, forging, and casting industries in India.">
+  <meta name="keywords" content="third party inspection, quality audits, expediting, forging inspection, casting inspection, ISO audits, Bhopal, India">
+  <meta name="author" content="NexSure Cert and Quality Services">
+
+  <!-- Open Graph / Social Media Tags -->
+  <meta property="og:title" content="NexSure Cert and Quality Services">
+  <meta property="og:description" content="Trusted partner for inspections, audits, and quality consulting for manufacturing, forging, and casting industries in India.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.nexsureqc.in/">
+  <meta property="og:image" content="https://www.nexsureqc.in/images/logo.png">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
   <style>
-    :root{
-      --dark:#00264d; --accent:#005fa3; --muted:#e6f0fa;
-      --maxw:1040px;
-      font-family: 'Roboto', Arial, sans-serif;
+    body {
+      font-family: 'Roboto', sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      color: #333;
+      background-color: #f5f7fa;
     }
-    *{box-sizing:border-box}
-    body{margin:0;background:#f5f7fa;color:#222;line-height:1.6}
-    header{background:var(--dark);color:#fff;padding:20px 24px;display:flex;align-items:center;gap:16px}
-    header img{height:64px;width:auto;border-radius:6px;background:#fff;padding:4px}
-    header .title{font-size:20px;margin:0}
-    header .tag{margin:0;font-size:13px;color:#dfeffb}
-    nav{background:var(--accent);text-align:center;padding:8px}
-    nav a{color:#fff;margin:0 12px;text-decoration:none;font-weight:600}
-    main{max-width:var(--maxw);margin:28px auto;padding:0 18px}
-    section.card{background:#fff;border-radius:8px;padding:20px;margin-bottom:18px;box-shadow:0 6px 18px rgba(10,20,30,0.04)}
-    h2{color:var(--dark);margin-top:0}
-    ul{padding-left:20px;margin:0}
-    .contact-box{background:var(--muted);padding:18px;border-radius:8px;text-align:center}
-    .btn{display:inline-block;background:var(--accent);color:#fff;padding:10px 16px;border-radius:6px;text-decoration:none;font-weight:700;margin:8px 6px}
-    footer{background:var(--dark);color:#fff;text-align:center;padding:16px;font-size:13px}
-    footer p{margin:6px 0}
-    @media(max-width:700px){
-      header{flex-direction:row;gap:12px}
-      header img{height:52px}
-      .btn{padding:9px 12px}
+    header {
+      background: #00264d;
+      color: white;
+      padding: 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+    header img {
+      height: 60px;
+      margin-right: 1rem;
+    }
+    header h1 {
+      font-size: 1.8rem;
+      margin: 0;
+    }
+    header p {
+      font-size: 0.9rem;
+      margin: 0;
+    }
+    nav {
+      background: #005fa3;
+      color: white;
+      padding: 0.7rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    section {
+      padding: 3rem 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services {
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+    h2 {
+      color: #00264d;
+      margin-bottom: 1rem;
+      font-weight: 700;
+    }
+    ul li {
+      margin: 0.5rem 0;
+    }
+    .contact-box {
+      background: #e6f0fa;
+      padding: 2rem;
+      border-radius: 8px;
+      text-align: center;
+    }
+    .btn {
+      display: inline-block;
+      padding: 0.7rem 1.5rem;
+      background: #005fa3;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+    .footer {
+      background: #00264d;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <img src="images/logo.png" alt="NexSure Logo" id="site-logo">
+    <img src="images/logo.png" alt="NexSure Logo">
     <div>
-      <h1 class="title">NexSure Cert and Quality Services</h1>
-      <p class="tag">Trusted Partner in Inspection, Audit, Certification and Quality Consultation</p>
+      <h1 style="font-size: 2.2rem;">NexSure Cert and Quality Services</h1>
+      <p>Trusted Partner in Inspection, Audit, Certification and Quality Consultations</p>
     </div>
   </header>
 
-  <nav aria-label="Main navigation">
+  <nav>
     <a href="#about">About</a>
     <a href="#services">Services</a>
     <a href="#contact">Contact</a>
   </nav>
 
-  <main>
-    <section id="about" class="card">
-      <h2>About Us</h2>
-      <p>
-        NexSure Cert and Quality Services is a professionally driven sole proprietorship founded by Mr. Nimish Sharma — a mechanical engineer with 23+ years of hands-on experience in project manufacturing, supplier quality engineering, inspections and audits.
-        We offer independent third-party inspection, expediting, supplier audits and documentation services for industries with critical quality requirements. Services include on-site and remote support from component inspection to full project quality planning and export facilitation.
-      </p>
-    </section>
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      NexSure Cert and Quality Services is a third-party inspection and auditing firm dedicated to delivering trusted, precise, and reliable quality assessments. We support industries in meeting compliance and certification requirements efficiently.
+    </p>
+  </section>
 
-    <section id="services" class="card">
-      <h2>Our Services</h2>
-      <ul>
-        <li>Third-party inspections (Visual, Dimensional, Functional)</li>
-        <li>Component inspection of Machined Parts, Forgings & Castings (Dimensional, Surface & NDT)</li>
-        <li>Welding & NDT Audits (UT, RT, PT, MT) — ASNT Level II</li>
-        <li>Quality Management System audits and internal auditing (ISO 9001)</li>
-        <li>Pre-dispatch & In-process quality audits, First Article Inspection (FAI)</li>
-        <li>Expediting & project manufacturing monitoring</li>
-        <li>Supplier capability assessment, Q-Doc review & vendor qualification</li>
-        <li>Preparation of SOPs, Work Instructions, Quality & Manufacturing Procedures</li>
-        <li>Root Cause Analysis (RCA), 8D, A3 & CAPA implementation</li>
-        <li>Export facilitation: buyer sourcing, vendor coordination, packing & shipping supervision</li>
-      </ul>
-    </section>
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li>Third-Party Inspections (Visual, Dimensional, Functional)</li>
+      <li>Welding and NDT Audits (UT, RT, PT, MT)</li>
+      <li>Quality Management System Audits (ISO 9001, 14001, etc.)</li>
+      <li>Pre-Dispatch & In-Process Quality Audits</li>
+      <li>ESG and Sustainability Assessments</li>
+      <li>Expediting Services for Manufacturing and Project Deliverables</li>
+      <li>Support in Developing Quality Procedures, Manufacturing Procedures, Work Instructions, SOPs, and Documentation Systems</li>
+    </ul>
+  </section>
 
-    <section class="card">
-      <h2>Industries Served</h2>
-      <p>Thermal & Nuclear Power, Hydro Power, Oil & Gas, Pulp & Paper, Heavy Engineering & Fabrication, EPC & OEM Projects — including rotating equipment, turbine parts, pressure vessels and process machinery.</p>
-    </section>
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <div class="contact-box">
+      <p><strong>Email:</strong> info@nexsureqc.in</p>
+      <p><strong>Phone:</strong> +91-8130377371</p>
+      <p><strong>Udyam Registration No.:</strong> UDYAM-MP-10-0126979</p>
+      <p><strong>Location:</strong> Bhopal, Madhya Pradesh, India</p>
+      <a class="btn" href="mailto:info@nexsureqc.in">Send Inquiry</a>
+    </div>
+  </section>
 
-    <section id="contact" class="card">
-      <h2>Contact Us</h2>
-      <div class="contact-box">
-        <p><strong>Email:</strong> <a href="mailto:info@nexsureqc.in">info@nexsureqc.in</a></p>
-        <p><strong>Phone:</strong> <a href="tel:+918130377371">+91-8130377371</a></p>
-        <p><strong>Location:</strong> Bhopal, Madhya Pradesh, India</p>
-        <p><strong>Udyam Reg. No.:</strong> UDYAM-MP-10-0126979</p>
-        <a class="btn" href="mailto:info@nexsureqc.in?subject=Inquiry%20-%20NexSure%20Cert%20and%20Quality%20Services&body=Dear%20NexSure%20Team,%0A%0AI%20would%20like%20to%20inquire%20about%20your%20inspection,%20audit%20and%20quality%20services.%0A%0ARegards,%0A[Your%20Name]">Send Inquiry</a>
-        <p><a href="NexSure_Company_Profile_4.pdf" target="_blank">📄 Download Company Profile</a></p>
-        
-      </div>
-    </section>
-  </main>
-
-  <footer>
+  <footer class="footer">
     <p>&copy; 2025 NexSure Cert and Quality Services. All Rights Reserved.</p>
-    <p>All content, text, images, and documents on this site are the property of NexSure Cert and Quality Services and may not be reproduced without permission.</p>
   </footer>
 </body>
 </html>
