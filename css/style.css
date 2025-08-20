@@ -406,3 +406,11 @@ body {
 
 /* Keep dots/arrows above the slides */
 .slider-arrow, .slider-dots { z-index: 6 !important; position: absolute; }
+a img {
+  margin: 5px;
+  transition: transform 0.2s;
+}
+
+a img:hover {
+  transform: scale(1.1);
+}
